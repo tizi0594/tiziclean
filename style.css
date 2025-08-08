@@ -50,6 +50,32 @@ header li a {
     float: left;
 }
 /* ********************* IMAGE PRINCIPAL ******************** */
+
+@media (max-min: 1024px) {
+    #imagePrincipale {
+        padding-top: 60px;
+        background: url(Media/flyer.jpg) no-repeat fixed 50% 50%;
+        background-size: cover;
+        height: 798px;
+    }
+}
+@media (max-min: 768px) {
+    #imagePrincipale {
+        padding-top: 60px;
+        background: url(Media/flyer.jpg) no-repeat fixed 50% 50%;
+        background-size: cover;
+        height: 470px;
+    }
+}
+@media (max-min: 480px) {
+    #imagePrincipale {
+        padding-top: 60px;
+        background: url(Media/flyer.jpg) no-repeat fixed 50% 50%;
+        background-size: cover;
+        height: 240px;
+    }
+}
+
 #imagePrincipale {
     padding-top: 60px;
     background: url(Media/flyer.jpg) no-repeat fixed 50% 50%;
